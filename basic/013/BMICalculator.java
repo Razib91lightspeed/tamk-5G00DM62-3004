@@ -2,7 +2,7 @@
  * The BMICalculator class calculates and displays the BMI (Body Mass Index).
  *
  * @author Razib Hasan <razib.hasan@tuni.fi>
- * @version 2024.0208 (last modified)
+ * @version 2024.0131 (last modified)
  * @since 17.0 (minimum Java version)
  */
 public class BmiCalculator{

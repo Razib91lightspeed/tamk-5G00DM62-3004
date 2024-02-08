@@ -2,13 +2,13 @@
  * The PrintProgram class demonstrates printing information.
  *
  * @author Razib Hasan <razib.hasan@tuni.fi>
- * @version 2024.0208 (last modified)
+ * @version 2024.0131 (last modified)
  * @since 17.0 (minimum Java version)
  */
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class PrintProgram {
+public class PrintingProgram {
     /**
      * Exercise: 1.2
      * Write the Print program.
@@ -16,7 +16,7 @@ public class PrintProgram {
      * @param args Command line arguments. Not used.
      */
     public static void main(String[] args) {
-        PrintProgram printer = new PrintProgram();
+        PrintingProgram printer = new PrintingProgram();
 
         String currentDate = getCurrentDate();
         String firstName = "Razib";

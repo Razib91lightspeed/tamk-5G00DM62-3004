@@ -3,10 +3,10 @@
  * It provides a method to calculate the hypotenuse given the lengths of the other two sides.
  *
  * @author Razib Hasan <razib.hasan@tuni.fi>
- * @version 2024.0208 (last modified)
+ * @version 2024.0131 (last modified)
  * @since 17.0 (minimum Java version)
  */
-public class Pythagoras {
+public class PythagorasFormula {
     /**
      * Exercise: 1.4
      * Write the Pythagoras program.
