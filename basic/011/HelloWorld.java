@@ -1,22 +1,32 @@
 /**
  * @author      Razib Hasan <razib.hasan@tuni.fi>
- * @version     2024.0126 (last modified)
- * @since       17.0 (miminimum Java version)
+ * @version     2024.0208 (last modified)
+ * @since       17.0 (minimum Java version)
  */
 class HelloWorld {
-
     /**
      * Exercise: 1.1
      * Write the Hello World program.
      *
-     * @param  args  Command line arguments. Not used.
+     * @param args Command line arguments. Not used.
      */
-
     public static void main(String[] args) {
-        System.out.println("***************************");
-        System.out.println("* Hello, I am Razib Hasan *");
-        System.out.println("***************************");
+        String formattedBox = getFormattedNameBox("Razib Hasan");
+        System.out.println(formattedBox);
+    }
+
+    /**
+     * Generates a formatted box containing the provided name.
+     *
+     * @param name The name to be included in the box.
+     * @return A string representing the formatted name box.
+     */
+    public static String getFormattedNameBox(String name) {
+        int length = name.length() + 16; // Considering padding and asterisks
+
+        String border = "*".repeat(length);
+
+        return String.format("%s\n* Hello, I am %s *\n%s\n", border, name, border);
     }
 }
 
-// End of file
