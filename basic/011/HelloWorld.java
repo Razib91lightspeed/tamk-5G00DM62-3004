@@ -29,6 +29,3 @@ class HelloWorld {
         return String.format("%s\n* Hello, I am %s *\n%s\n", border, name, border);
     }
 }
-
-
-

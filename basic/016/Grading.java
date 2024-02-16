@@ -77,4 +77,3 @@ public class Grading {
         return result.toString();
     }
 }
-

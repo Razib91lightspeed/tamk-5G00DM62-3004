@@ -71,4 +71,3 @@ public class TaxCalcu {
         return result.toString();
     }
 }
-

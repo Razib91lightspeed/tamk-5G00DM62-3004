@@ -54,4 +54,3 @@ public class ConeCalcu {
         return String.format("Radius (r): %.2f\nHeight (h): %.2f\nVolume    : %.2f", radius, height, volume);
     }
 }
-

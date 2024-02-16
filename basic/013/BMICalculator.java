@@ -57,4 +57,3 @@ public class BmiCalculator{
         return displayResults(weight, height, bmi);
     }
 }
-
