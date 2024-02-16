@@ -8,9 +8,9 @@
  * @since 17.0 (minimum Java version)
  */
 public class Grading {
+
     /**
-     * Exercise: 1.6
-     * Write the GradeCalculator program.
+     * Writes the GradeCalculator program.
      *
      * @param args Command line arguments. Not used.
      */
@@ -77,3 +77,4 @@ public class Grading {
         return result.toString();
     }
 }
+

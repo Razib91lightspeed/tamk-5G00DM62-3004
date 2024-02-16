@@ -8,7 +8,7 @@
 public class BmiCalculator{
 
     /**
-     * Write the BMI calculator program.
+     * Writes the BMI calculator program.
      *
      * @param args Command line arguments. Not used.
      */

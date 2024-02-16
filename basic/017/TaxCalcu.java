@@ -6,15 +6,14 @@
  * @version 2024.0131 (last modified)
  * @since 17.0 (minimum Java version)
  */
-public class TaxCalculator {
+public class TaxCalcu {
     /**
-     * Exercise: 1.7
-     * Write the TaxCalculator program.
+     * Writes the TaxCalculator program.
      *
      * @param args Command line arguments. Not used.
      */
     public static void main(String[] args) {
-        TaxCalculator calculator = new TaxCalculator();
+        TaxCalcu calculator = new TaxCalcu();
         String result = calculator.calculateAndDisplayTaxes(134000, 23000);
         System.out.println(result);
     }
@@ -72,3 +71,4 @@ public class TaxCalculator {
         return result.toString();
     }
 }
+

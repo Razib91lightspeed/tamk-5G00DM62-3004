@@ -7,9 +7,9 @@
  * @since 17.0 (minimum Java version)
  */
 public class ConeCalcu {
+
     /**
-     * Exercise: 1.5
-     * Write the cone calculator program.
+     * Writes the cone calculator program.
      *
      * @param args Command line arguments. Not used.
      */
@@ -54,3 +54,4 @@ public class ConeCalcu {
         return String.format("Radius (r): %.2f\nHeight (h): %.2f\nVolume    : %.2f", radius, height, volume);
     }
 }
+

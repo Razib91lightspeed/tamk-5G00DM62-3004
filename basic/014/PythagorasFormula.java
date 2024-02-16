@@ -7,9 +7,9 @@
  * @since 17.0 (minimum Java version)
  */
 public class PythagorasFormula {
+
     /**
-     * Exercise: 1.4
-     * Write the Pythagoras program.
+     * Writes the Pythagoras program.
      *
      * @param a The length of one side of the right triangle.
      * @param b The length of the other side of the right triangle.
@@ -21,7 +21,7 @@ public class PythagorasFormula {
     }
 
     /**
-     * Main method to demonstrate the use of the calculate method.
+     * Mains method to demonstrate the use of the calculate method.
      *
      * @param args Command line arguments. Not used.
      */
