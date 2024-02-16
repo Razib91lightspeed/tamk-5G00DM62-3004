@@ -7,6 +7,7 @@
  * @since 17.0 (minimum Java version)
  */
 public class TaxCalcu {
+
     /**
      * Writes the TaxCalculator program.
      *
