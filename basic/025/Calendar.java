@@ -13,7 +13,6 @@ public class Calendar {
     final static String SATURDAY = "Sat";
 
     /**
-     * Exercises: 2.5
      * Writes a program that displays events based on date and time.
      *
      * @param args Command line arguments. Not used.
