@@ -9,8 +9,8 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class PrintingProgram {
+
     /**
-     * Exercise: 1.2
      * Write the Print program.
      *
      * @param args Command line arguments. Not used.
@@ -27,7 +27,7 @@ public class PrintingProgram {
     }
 
     /**
-     * Display the provided information.
+     * Displays the provided information.
      *
      * @param currentDate The current date.
      * @param firstName   The first name.
@@ -44,7 +44,7 @@ public class PrintingProgram {
     }
 
     /**
-     * Get the current date in the format "yyyy-MM-dd".
+     * Gets the current date in the format "yyyy-MM-dd".
      *
      * @return The current date.
      */
