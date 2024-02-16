@@ -6,7 +6,7 @@
  * @version 2024.0131 (last modified)
  * @since 17.0 (minimum Java version)
  */
-public class UnderlineDrawer {
+public class Drawer {
 
     /**
      * Draws an underline below the given string and returns it.
@@ -36,7 +36,7 @@ public class UnderlineDrawer {
      * @param args Command line arguments. Not used.
      */
     public static void main(String[] args) {
-        UnderlineDrawer underlineDrawer = new UnderlineDrawer();
+        Drawer underlineDrawer = new Drawer();
         String str = "This is a test"; // Change this string to draw underline below it
         String underline = underlineDrawer.drawUnderline(str);
         System.out.println(underline);
