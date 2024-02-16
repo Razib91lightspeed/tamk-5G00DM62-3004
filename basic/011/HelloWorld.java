@@ -4,9 +4,9 @@
  * @since       17.0 (minimum Java version)
  */
 class HelloWorld {
+
     /**
-     * Exercise: 1.1
-     * Write the Hello World program.
+     * Writes the Hello World program.
      *
      * @param args Command line arguments. Not used.
      */
