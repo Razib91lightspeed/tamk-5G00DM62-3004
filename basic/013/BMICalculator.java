@@ -6,8 +6,8 @@
  * @since 17.0 (minimum Java version)
  */
 public class BmiCalculator{
+
     /**
-     * Exercise: 1.3
      * Write the BMI calculator program.
      *
      * @param args Command line arguments. Not used.
@@ -57,3 +57,4 @@ public class BmiCalculator{
         return displayResults(weight, height, bmi);
     }
 }
+
