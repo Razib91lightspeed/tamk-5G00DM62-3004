@@ -9,6 +9,10 @@ import java.util.Arrays;
  * @since 17.0 (minimum Java version)
  */
 public class Temperature {
+
+     /**
+     * The array of temperature values.
+     */
     private double[] temperatures;
 
     /**
