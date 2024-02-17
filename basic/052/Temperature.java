@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 /**
- * The TemperatureReport class stores temperature values in an array and generates a report.
+ * The Temperature class stores temperature values in an array and generates a report.
  * It calculates the minimum, maximum, and average temperatures.
  *
  * @author Razib Hasan <razib.hasan@tuni.fi>
@@ -10,13 +10,13 @@ import java.util.Arrays;
  */
 public class Temperature {
 
-     /**
+    /**
      * The array of temperature values.
      */
     private double[] temperatures;
 
     /**
-     * Constructs a TemperatureReport object with the given temperature values.
+     * Constructs a Temperature object with the given temperature values.
      *
      * @param temperatures The array of temperature values.
      */
