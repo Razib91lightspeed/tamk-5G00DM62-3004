@@ -29,7 +29,7 @@ public class Calculator {
      */
     public static void main(String[] args) {
         Calculator calculator = new Calculator();
-        int total = calculator.sum(10); 
+        int total = calculator.sum(10);
         System.out.println("Total sum: " + total);
     }
 }
