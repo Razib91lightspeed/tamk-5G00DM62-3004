@@ -20,6 +20,8 @@ public class LotteryNumGenerator {
      * @return An array containing seven unique lottery numbers.
      */
     public int[] generateLottery() {
+
+        // Method implementation
         Random random = new Random();
         Set<Integer> lotterySet = new HashSet<>();
 
