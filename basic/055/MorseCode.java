@@ -11,6 +11,9 @@ import java.util.Map;
  */
 public class MorseCode {
 
+    /**
+     * The map to store Morse code representations for digits (0-9).
+     */
     private final Map<Character, String> morseCodeMap;
 
     /**
