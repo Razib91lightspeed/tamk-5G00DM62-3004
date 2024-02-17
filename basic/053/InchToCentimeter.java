@@ -8,7 +8,14 @@
  */
 public class InchToCentimeter {
 
+    /**
+     * The array of inch values.
+     */
     private double[] inches;
+
+    /**
+     * The array to store converted centimeter values.
+     */
     private double[] centimeters;
 
     /**
