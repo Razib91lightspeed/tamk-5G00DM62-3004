@@ -10,6 +10,9 @@ import java.util.Random;
  */
 public class Dice {
 
+    /**
+     * The random number generator for simulating dice rolls.
+     */
     private Random random;
 
     /**
