@@ -1,58 +1,61 @@
 import java.util.HashSet;
-import java.util.Random;
 import java.util.Set;
 
 /**
- * The LotteryGenerator class generates lottery numbers.
- * It provides a method to generate seven unique lottery numbers between 1 and 40, inclusive.
- * The numbers are generated using the rollDice method.
- *
  * @author Razib Hasan <razib.hasan@tuni.fi>
- * @version 2024.0206 (last modified)
- * @since 17.0 (minimum Java version)
+ * @version 2024.0216
+ * @since 17
  */
 public class LotteryNumGenerator {
 
     /**
-     * Generates seven unique lottery numbers between 1 and 40, inclusive.
-     * Each number is generated using the rollDice method.
+     * Generates lottery numbers in the range 1 to 40 for 7 values.
      *
-     * @return An array containing seven unique lottery numbers.
+     * Each number can appear only once.
+     *
+     * @return An array of 7 unique lottery numbers.
      */
-    public int[] generateLottery() {
-
-        // Method implementation
-        Random random = new Random();
-        Set<Integer> lotterySet = new HashSet<>();
-
-        // Generates seven unique lottery numbers
-        while (lotterySet.size() < 7) {
-            int number = random.nextInt(40) + 1; // Generate a random number between 1 and 40
-            lotterySet.add(number);
-        }
-
-        // Converts set to array
+    public int[] generateLotteryNumbers() {
         int[] lotteryNumbers = new int[7];
-        int index = 0;
-        for (int num : lotterySet) {
-            lotteryNumbers[index++] = num;
-        }
+        Set<Integer> usedNumbers = new HashSet<>();
 
+        for (int i = 0; i < 7; i++) {
+            int number = dice();
+            // Ensure the generated number is unique
+            while (usedNumbers.contains(number)) {
+                number = dice();
+            }
+            lotteryNumbers[i] = number;
+            usedNumbers.add(number);
+        }
         return lotteryNumbers;
     }
 
     /**
-     * Mains method to run the program.
+     * Simulates rolling a dice and returns a random number between 1 and 40.
      *
-     * @param args Command line arguments. Not used.
+     * @return A random number between 1 and 40.
+     */
+    private int dice() {
+        return (int) (Math.random() * 40) + 1;
+    }
+
+    /**
+     * Implements homework 4.6
+     *
+     * Main method to demonstrate generating lottery numbers.
+     *
+     * @param args Command line arguments (not used).
      */
     public static void main(String[] args) {
-        LotteryNumGenerator lotteryGenerator = new LotteryNumGenerator();
-        int[] lotteryNumbers = lotteryGenerator.generateLottery();
+        LotteryNumGenerator generator = new LotteryNumGenerator();
+        int[] lotteryNumbers = generator.generateLotteryNumbers();
+
         System.out.print("Lottery: ");
-        for (int i = 0; i < lotteryNumbers.length - 1; i++) {
-            System.out.print(lotteryNumbers[i] + ", ");
+        for (int number : lotteryNumbers) {
+            System.out.print(number + ", ");
         }
-        System.out.println(lotteryNumbers[lotteryNumbers.length - 1]);
+        System.out.println();
     }
 }
+// End of file
