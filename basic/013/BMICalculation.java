@@ -1,9 +1,11 @@
 /**
+ * Displays the BMI (Body Mass Index).
+ *
  * @author Razib Hasan <razib.hasan@tuni.fi>
- * @version 2024.0126
- * @since 17
+ * @version 2024.0131 (last modified)
+ * @since 17.0 (minimum Java version)
  */
-public class BmiCalculator {
+public class BMICalculation {
 
     /**
      * Calculates the BMI based on weight and height.
@@ -50,9 +52,8 @@ public class BmiCalculator {
      * @param args Command line arguments (not used).
      */
     public static void main(String[] args) {
-        BmiCalculator calculator = new BmiCalculator();
-        String result = calculator.calculateAndDisplayBMI(65, 1.75);
+        BMICalculation calculator = new BMICalculation();
+        String result = calculator.calculateAndDisplayBMI(55, 1.75);
         System.out.println(result);
     }
 }
-// End of file
