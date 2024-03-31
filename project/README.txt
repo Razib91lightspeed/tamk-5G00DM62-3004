@@ -1,6 +1,37 @@
 Food Delivery System Testing Readme
 
+Instructions to run this project.
+
+# Step 1. Clone this project from GitHub
+
+git clone https://github.com/Razib91lightspeed/tamk-5G00DM62-3004.git
+
+# Step 2. Navigate to project directory
+
+cd project
+
+# Step 3. Run below command if jar files are missing
+
+javac -cp .junit-4.12.jar;hamcrest-core-1.3.jar *.java
+
+Step 4. To run Main.java, use below command
+
+javac Main.java
+java Main
+
+Step 5. Once compiled, use below command to see all test result
+
+javac -cp ".:junit-4.13.2.jar:hamcrest-core-1.3.jar" TestSuiteAll.java
+java -cp ".:junit-4.13.2.jar:hamcrest-core-1.3.jar" org.junit.runner.JUnitCore TestSuiteAll
+
+
+
+
+
+
+
 ## Project Overview
+
 This repository contains the code for a food delivery system.
 The system consists of various classes representing different entities such as
 customers, delivery addresses, menus, orders, payments, restaurants,
@@ -179,3 +210,6 @@ Finished test: testSetAddressEmpty
 #5 Output File Generation
 (base) MacBook-Pro:razibtesting razibhasan$ java -cp ".:junit-4.13.2.jar:hamcrest-core-1.3.jar" TestSuiteAll > OUTPUT.txt
 (base) MacBook-Pro:razibtesting razibhasan$
+// End of file
+
+
